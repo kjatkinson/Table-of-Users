@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Template</title>
-    <style>
-        body {
-          
-       
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    <main>
-        <p></p>
-    </main>
-    <footer>
-        <p>© 2024 My Website</p>
-    </footer>
-</body>
+    <meta charset="UTF-8"/>
+    <title>HOME</title>
+    <link href="style.css" rel="stylesheet"/>
+    </head>
+        <body>
+          <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Status</th>
+                    <th>Age</th>
+                    <th>Tags</th>
+                </tr>
+            </thead>
+          <tbody>
+            <tr class="item">
+                <td class ="info">
+                    <img src="JOEDOE.jpg" width="25" height="20" /><span>Joe Doe</span>
+                </td>
+                <td>
+                    <span class = "active-cl">Active</span><span class="dot active-bg"></span>
+                </td>
+                <td><span>29</span></td>
+                <td>
+                    <span class="tag">Typescript</span>
+                </td>
+            </tr>
+            <tr class="item">
+                <td class="info">
+                    <img src="SaraLo.jpg" width="25" height="25"/><span>Sara Lo</span>
+                </td>
+                <td>
+                    <span class="offline-cl">Offline</span><span class="dot offline-bg></span></td>
+    
+                </td><span>27</span></td>
+                <td>
+                    <span class = "tag">Angular</span><span class ="tag">Tailwind</span>
+                </td>
+            </tr>
+            </tbody>
+          </table>
+          </body>
 </html>
